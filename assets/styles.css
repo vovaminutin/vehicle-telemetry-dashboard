@@ -1,0 +1,43 @@
+/* assets/styles.css */
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* App container */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(180deg, #ffffff, #f7f9fc);
+}
+
+/* Title styling */
+h1 {
+    color: #0b3d91;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #f3f6fb !important;
+    border-right: 1px solid #e1e8f5;
+}
+
+/* Make widget labels dark and visible */
+.css-1d391kg, .css-1v3fvcr, .css-1kyxreq {
+    color: #0b3d91 !important;
+}
+
+/* Metric styling */
+[data-testid="stMetricValue"] {
+    color: #0b3d91 !important;
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #0b3d91 !important;
+    color: white !important;
+    border-radius: 6px;
+}
+
+/* Plotly chart background subtle */
+.js-plotly-plot .plotly .main-svg {
+    background-color: rgba(255,255,255,0.7) !important;
+}
