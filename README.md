@@ -1,45 +1,47 @@
 # 🚗 Vehicle Telemetry Dashboard
 
-**Monitor, visualize, and explore vehicle performance in real-time – all from your browser!**
+**Monitor, visualize, and analyze vehicle performance in real time – all from your browser!**
 
-This interactive **Vehicle Telemetry Dashboard** simulates live car data, including engine RPM, speed, engine temperature, and fuel level. Built with **Streamlit** and **Plotly**, it delivers a sleek, dynamic experience that feels like a real car diagnostics system – but fully virtual and safe.  
+This interactive **Vehicle Telemetry Dashboard** simulates live car data — including engine RPM, speed, temperature, and fuel level — and presents it in an engaging, data-rich interface.  
+Built with **Streamlit**, **Plotly**, and **Python**, it provides an immersive diagnostic environment that feels like a real vehicle monitoring system — but entirely virtual and safe to explore.
 
 ---
 
 ## 🌟 Features
 
-- **Real-Time Telemetry Simulation**  
-  Watch engine and vehicle data change smoothly with each second.  
+### ⚙️ Real-Time Telemetry Simulation
+- Live updates of vehicle parameters (RPM, Speed, Temperature, Fuel Level)
+- Smooth, continuous data variation for realistic performance feedback
 
-- **Interactive Gauges & Charts**  
-  - Engine RPM  
-  - Vehicle Speed  
-  - Engine Temperature  
-  - Fuel Level  
-  Historical trends are displayed in easy-to-read charts.  
+### 📊 Dynamic Visualizations
+- **Interactive Plotly Gauges** for instant status awareness  
+- **Line Chart Visualization** for telemetry trends over time  
+- Responsive design optimized for both desktop and tablet displays
 
-- **Customizable Simulation**  
-  Control the simulation speed (Slow / Normal / Fast) to suit your testing needs.  
+### 🧠 Smart Analytics
+- **KPI Metrics**: real-time stats for average speed, max RPM, and remaining fuel  
+- **Automatic Alerts**:
+  - ⚠️ Engine Overheating  
+  - ⛽ Low Fuel Level  
+  - 🚨 RPM Limit Reached  
 
-- **Session State Persistence**  
-  All data persists as you interact with the dashboard, allowing continuous monitoring.  
+### 💾 Data Management
+- **CSV Export**: Download your full telemetry session with one click  
+- **Session Persistence**: Data remains during interaction without resetting  
+- **One-Click Reset** to start a new simulation cleanly  
 
-- **User-Friendly Controls**  
-  Start, stop, or reset the simulation with a single click.  
+### 🧩 Developer Experience
+- Modular, well-documented code structure for maintainability  
+- Built-in **logging system** for debugging and simulation tracking  
+- Easy to extend with additional sensors, analytics, or vehicle modes  
 
 ---
 
-## 🚀 Demo
+## 🧮 Tech Stack
 
-Run the dashboard locally and explore:
-
-```bash
-git clone https://github.com/vovaminutin/vehicle-telemetry-dashboard.git
-cd vehicle-telemetry-dashboard
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-pip install -r requirements.txt
-streamlit run main.py
+- **Python 3.9+**
+- **Streamlit** – interactive UI & dashboard framework  
+- **Plotly** – powerful data visualization engine  
+- **Pandas** – data logging and manipulation  
+- **UUID** – ensures unique component keys for live chart updates  
+- **Logging** – system monitoring and debugging support  
